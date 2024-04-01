@@ -25,16 +25,16 @@ const Bookdetails = () => {
 
     let addtocart = (data) => {
         if (!cartItems.some(item => item.id === data.id)) {
-            
+
             setCartItems(prevItems => [...prevItems, data])
             setCartCount(prevCount => prevCount + 1)
             alert("Your item is added to the cart")
         } else {
-            
+
             alert("This item is already in your cart")
         }
     };
-    
+
 
     let handlegoback = () => {
         navigate("/")
@@ -46,14 +46,17 @@ const Bookdetails = () => {
     return (
         <div>
             <div style={{ float: "right" }} onClick={handlegoback}>go back</div>
-            <div style={{ height: "100px", display: "flex", alignItems: "center" }} className="bookheader" >
-                <div >
+            <div style={{ height: "100px", display: "flex", alignItems: "center" }} className="bookheader row"  >
+                <div className='col-lg-9 col-md-9 col-8' >
                     <h1 style={{ color: "rgb(185, 6, 161)" }}>Welcome to Book Worms!</h1>
                 </div>
-                <div >
-                    <span><FaCartShopping className='carticon' onClick={() => handlecart(getitem)} /></span>
-                    <span className='cartnumber'>{cartCount}</span>
-                    <span><CgProfile className='profileicon' />   </span>
+                <div className='col-lg-3 col-md-3 col-4'>
+                    <div className='icon' >
+                        <span><FaCartShopping className='carticon' onClick={() => handlecart(getitem)} /></span>
+                        <span className='cartnumber'>{cartCount}</span>
+                        <span><CgProfile className='profileicon' />   </span>
+
+                    </div>
 
                 </div>
             </div>

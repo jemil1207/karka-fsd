@@ -25,10 +25,14 @@
   height: 600px;
   width: 400px;
 }
+.icon {
+  width: 100px;
+  display: flex;
+}
 .carticon {
   color: rgb(185, 6, 161);
+
   font-size: 50px;
-  margin-left: 900px;
 }
 .profileicon {
   color: rgb(185, 6, 161);
@@ -80,6 +84,7 @@
 }
 .cartnumber {
   color: rgb(185, 6, 161);
+  font-size: 30px;
 }
 .cartimage {
   height: 500px;
@@ -126,8 +131,8 @@
   .carticon {
     color: rgb(185, 6, 161);
     font-size: 30px;
-    margin-left: 00px;
-    float: right;
+    /* margin-left: 00px; */
+    /* float: right; */
   }
   .profileicon {
     color: rgb(185, 6, 161);
@@ -140,12 +145,7 @@
     width: 200px;
     margin: 10px;
   }
-  /* .bookdetailsheader {
-  height: "100px";
-  background-color: rgb(6, 185, 27);
-  display: flex;
-  align-items: center;
-} */
+
   .bookheader {
     display: flex;
     /* justify-content: center; */
@@ -156,6 +156,9 @@
   }
   .welcomeheading {
     width: 200px;
+  }
+  .cartnumber {
+    color: rgb(185, 6, 161);
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 561px) {
@@ -172,8 +175,9 @@
   }
   .profileicon {
     color: rgb(185, 6, 161);
-    /* font-size: 20px;
-    margin-left: 50px; */
+
+    /* font-size: 20px; */
+    margin-left: 20px;
   }
   /* .bookheader {
     height: 00px;
