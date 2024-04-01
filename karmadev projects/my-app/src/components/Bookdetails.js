@@ -45,12 +45,12 @@ const Bookdetails = () => {
     }
     return (
         <div>
-            <div style={{ float: "right" }} onClick={handlegoback}>go back</div>
+            <div style={{ float: "right", cursor: "pointer" }} className='bookdetailsgoback' onClick={handlegoback}><a>Go back</a></div>
             <div style={{ height: "100px", display: "flex", alignItems: "center" }} className="bookheader row"  >
-                <div className='col-lg-9 col-md-9 col-8' >
+                <div className='col-lg-10 col-md-9 col-8' >
                     <h1 style={{ color: "rgb(185, 6, 161)" }}>Welcome to Book Worms!</h1>
                 </div>
-                <div className='col-lg-3 col-md-3 col-4'>
+                <div className='col-lg-2 col-md-3 col-4'>
                     <div className='icon' >
                         <span><FaCartShopping className='carticon' onClick={() => handlecart(getitem)} /></span>
                         <span className='cartnumber'>{cartCount}</span>
@@ -67,9 +67,9 @@ const Bookdetails = () => {
                         <div className='col-lg-1 '></div>
                         <div className='col-lg-4 col-md-12 col-sm-12' ><img src={data.cover_image} className='bookdetailsimage' /></div>
                         <div className='col-lg-6 col-md-12 col-sm-12'>
-                            <h1>{data.title}</h1>
+                            <b><div className='bookdetailsauthor'>{data.title}</div></b>
                             <p>Written by: {data.author}</p>
-                            <div><b className='bookdetailsprice'>Price : ₹{data.price}</b></div>
+                            <div><b className='bookdetailsprice'> ₹{data.price}</b></div>
                             <div className='bookdetailsdescription'>{data.description}</div>
                             <div><button className='addtocart' onClick={() => addtocart(data)}><FaCartShopping />  Add to cart</button></div>
                         </div>
@@ -98,7 +98,7 @@ const Bookdetails = () => {
                 <div className='col-lg-3 col-md-4 col-sm-12'>
                     <b>Helps amd Contact</b>
                     <p><IoCallOutline />  +91 123 456 7898 </p>
-                    <p>  <CiClock2 /> Mo-Fri 09 to 12</p>
+                    <p>  <CiClock2 /> Mon-Fri 09Am to 12Pm  </p>
                     <p><IoMail />  abc@gmail.com</p>
                 </div>
                 <div className='col-lg-1'></div>

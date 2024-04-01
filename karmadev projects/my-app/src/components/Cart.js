@@ -47,7 +47,7 @@ const Cart = () => {
                         <div><img className='cartimage' src={item.cover_image} alt={item.title} /></div>
                     </div>
                     <div className='col-lg-5 col-md-7 col-sm-10'>
-                        <div><b>Name:</b> {item.title}</div>
+                        <div><b>{item.title}</b> </div>
                         <div><b>Author:</b> {item.author}</div>
                         <div><b>Price:</b> {item.price}</div>
                         <div><b>Description:</b> {item.description}</div>

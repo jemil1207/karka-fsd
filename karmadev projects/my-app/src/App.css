@@ -1,6 +1,17 @@
+body {
+  font-family: "Poppins";
+  font-size: 22px;
+}
+
 .homeimage {
   height: 350px;
   width: 250px;
+  cursor: pointer;
+}
+.homeimage:hover {
+  height: 400px;
+  width: 300px;
+  cursor: pointer;
 }
 
 .allbook {
@@ -24,6 +35,7 @@
 .bookdetailsimage {
   height: 600px;
   width: 400px;
+  cursor: pointer;
 }
 .icon {
   width: 100px;
@@ -32,15 +44,18 @@
 .carticon {
   color: rgb(185, 6, 161);
 
-  font-size: 50px;
+  font-size: 40px;
 }
 .profileicon {
   color: rgb(185, 6, 161);
-  font-size: 50px;
+  font-size: 40px;
   margin-left: 50px;
 }
 .bookdetailsprice {
-  font-size: 20px;
+  font-size: 40px;
+}
+.bookdetailsauthor {
+  font-size: 40px;
 }
 .bookdetailsdescription {
   margin: 10px;
@@ -95,12 +110,18 @@
 } */
 .deleteicon {
   font-size: 50px;
-  color: seagreen;
+  /* color: seagreen; */
 }
 .search {
   width: 500px;
 }
-
+.searchbtn {
+  border: solid 1px rgb(185, 6, 161);
+}
+.searchbtn:hover {
+  background-color: rgb(185, 6, 161);
+  color: white;
+}
 .consheader {
   display: flex;
   justify-content: center;
@@ -109,19 +130,47 @@
   text-align: center;
 }
 .home {
-  padding-left: 50px;
+  padding: 20px;
+  margin-left: 20px;
+  /* margin-top: 10px; */
+  cursor: pointer;
+  /* color: blue; */
+  /* margin-top: 20px; */
+}
+.home:hover {
+  color: rgb(185, 6, 161);
+  font-size: 25px;
+}
+.about {
+  padding: 20px;
+  /* color: blue; */
+  margin-left: 20px;
+
   cursor: pointer;
   /* margin-top: 20px; */
 }
-.about {
-  padding-left: 50px;
-  cursor: pointer;
-  /* margin-top: 20px; */
+.about:hover {
+  color: rgb(185, 6, 161);
+  font-size: 25px;
 }
 .category {
   margin-left: 50px;
+  padding: 20px;
 
   /* margin-top: 20px; */
+}
+.homeprice {
+  font-size: 25px;
+}
+.homeauthor {
+  font-size: 15px;
+}
+.bookdetailsgoback {
+  font-size: 20px;
+}
+.bookdetailsgoback:hover {
+  font-size: 22px;
+  color: red;
 }
 @media only screen and (max-width: 768px) {
   .welcomeheading {

@@ -11,7 +11,7 @@ const Construction = () => {
 
     return (
         <>
-            <div onClick={handlegoback} style={{ float: "right" }}>go back </div>
+            <div onClick={handlegoback} style={{ float: "right", cursor: "pointer" }} className='bookdetailsgoback'>Go back </div>
 
             <div className='consheader'>
                 <h1>The About page is under construction!</h1>

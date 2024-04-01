@@ -16,6 +16,7 @@ const Homepage = () => {
     let handlebookclik = (item) => {
         let snditem = [item]
         navigate("/Bookdetails", { state: { senditem: snditem } })
+
     }
 
 
@@ -58,10 +59,10 @@ const Homepage = () => {
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link-active text-rgb(185, 6, 161) home " aria-current="page" onClick={handlecategory4}>Home</a>
+                                    <a class="nav-link text-rgb(185, 6, 161) home " aria-current="page" onClick={handlecategory4}>Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link-active   text-rgb(185, 6, 161)  about" onClick={handleabout} >About Us</a>
+                                    <a class="nav-link   text-rgb(185, 6, 161)  about" onClick={handleabout} >About Us</a>
                                 </li>
                                 {/* <li class="nav-item">
                                     <a class="nav-link text-rgb(185, 6, 161)" onClick={handlecontact}>Contact</a>
@@ -85,7 +86,7 @@ const Homepage = () => {
                             </ul>
                             <form class="d-flex" role="search">
                                 <input class="form-control me-4 search" type="search" placeholder="Search" aria-label="Search" />
-                                <button class="btn btn-outline-rgb(185, 6, 161) text-rgb(185, 6, 161)" type="submit">Search</button>
+                                <button class="btn btn-outline-rgb(185, 6, 161) text-rgb(185, 6, 161) searchbtn" type="submit">Search</button>
                             </form>
                         </div>
                     </div>
@@ -98,9 +99,9 @@ const Homepage = () => {
                 {fil.map((item, index) => (
                     <div className='col-lg-2 col-md-4 col-sm-6 allbook' key={index}>
                         <img src={item.cover_image} alt={item.title} className="homeimage" onClick={() => handlebookclik(item)} />
-                        <div><b>Name:</b> {item.title}</div>
-                        <div><b>Author:</b> {item.author}</div>
-                        <div> <b>Price:</b> Rs {item.price}</div>
+                        <div className='hometitle'><b>{item.title}</b> </div>
+                        <div className='homeauthor'> {item.author}</div>
+                        <div className='homeprice'> <b> Rs {item.price}</b></div>
                     </div>
                 ))}
             </div>
@@ -123,7 +124,7 @@ const Homepage = () => {
                 <div className='col-lg-3 col-md-4 col-sm-12'>
                     <b>Helps amd Contact</b>
                     <p><IoCallOutline />  +91 123 456 7898 </p>
-                    <p> <CiClock2 />  Mo-Fri 09 to 12</p>
+                    <p> <CiClock2 />  Mon-Fri 09Am to 12Pm </p>
                     <p><IoMail />  abc@gmail.com</p>
                 </div>
                 <div className='col-lg-1'></div>
