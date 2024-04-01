@@ -1,0 +1,209 @@
+.homeimage {
+  height: 350px;
+  width: 250px;
+}
+
+.allbook {
+  border: solid 1px rgb(185, 6, 161);
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+.homeitem {
+  /* border: solid 1px black; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.bookdetailsimage {
+  height: 600px;
+  width: 400px;
+}
+.carticon {
+  color: rgb(185, 6, 161);
+  font-size: 50px;
+  margin-left: 900px;
+}
+.profileicon {
+  color: rgb(185, 6, 161);
+  font-size: 50px;
+  margin-left: 50px;
+}
+.bookdetailsprice {
+  font-size: 20px;
+}
+.bookdetailsdescription {
+  margin: 10px;
+}
+.addtocart {
+  margin-top: 20px;
+  width: 500px;
+  color: white;
+  background-color: rgb(185, 6, 161);
+  font-size: 30px;
+  padding: 10px;
+  border: none;
+}
+.footer {
+  color: white;
+  background-color: rgb(185, 6, 161);
+  /* margin: 20px; */
+  margin-top: 100px;
+  padding: 50px;
+}
+.bookdeatails {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/* .bookdetailsheader {
+  
+  background-color: rgb(184, 116, 175);
+  display: flex;
+  align-items: center;
+} */
+.cartheader {
+  height: 100px;
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(185, 6, 161);
+  padding: 20px;
+}
+.cartnumber {
+  color: rgb(185, 6, 161);
+}
+.cartimage {
+  height: 500px;
+  width: 400px;
+}
+/* .search {
+  width: 500px;
+} */
+.deleteicon {
+  font-size: 50px;
+  color: seagreen;
+}
+.search {
+  width: 500px;
+}
+
+.consheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+.home {
+  padding-left: 50px;
+  cursor: pointer;
+  /* margin-top: 20px; */
+}
+.about {
+  padding-left: 50px;
+  cursor: pointer;
+  /* margin-top: 20px; */
+}
+.category {
+  margin-left: 50px;
+
+  /* margin-top: 20px; */
+}
+@media only screen and (max-width: 768px) {
+  .welcomeheading {
+    font-size: 25px;
+    width: 500px;
+  }
+  .carticon {
+    color: rgb(185, 6, 161);
+    font-size: 30px;
+    margin-left: 00px;
+    float: right;
+  }
+  .profileicon {
+    color: rgb(185, 6, 161);
+    font-size: 20px;
+    /* margin-left: 200px; */
+  }
+
+  .cartimage {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+  }
+  /* .bookdetailsheader {
+  height: "100px";
+  background-color: rgb(6, 185, 27);
+  display: flex;
+  align-items: center;
+} */
+  .bookheader {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .search {
+    width: 300px;
+  }
+  .welcomeheading {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 561px) {
+  .search {
+    width: 200px;
+  }
+  .welcomeheading {
+    font-size: 15px;
+  }
+  .carticon {
+    color: rgb(185, 6, 161);
+    /* font-size: 20px;
+    margin-left: 25px; */
+  }
+  .profileicon {
+    color: rgb(185, 6, 161);
+    /* font-size: 20px;
+    margin-left: 50px; */
+  }
+  /* .bookheader {
+    height: 00px;
+    background-color: aliceblue;
+  } */
+  .bookdetailsimage {
+    height: 200px;
+    width: 150px;
+  }
+  .addtocart {
+    margin-top: 20px;
+    width: 300px;
+    color: white;
+    background-color: rgb(185, 6, 161);
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+  }
+  .bookdetailsheader {
+    height: "200px";
+    background-color: rgb(185, 6, 161);
+    display: flex;
+    align-items: center;
+  }
+  .cartheader {
+    font-size: 35px;
+  }
+  .cartimageheader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}

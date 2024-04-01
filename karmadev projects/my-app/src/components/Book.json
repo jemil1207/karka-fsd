@@ -1,0 +1,125 @@
+{
+  "Book": [
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "To Kill a Mockingbirdby Harper Lee is a seminal novel set in 1930s Alabama, tackling themes of racial injustice and moral growth. Narrated by Scout Finch, the story follows her father, Atticus, defending a black man falsely accused of raping a white woman. Through the eyes of Scout and her brother Jem, Lee intricately explores the complexities of prejudice and empathy in Southern society. With evocative prose and richly drawn characters, the novel remains a timeless portrayal of compassion and integrity in the face of adversity, challenging readers to confront their own biases while advocating for justice and equality.",
+      "cover_image": "/images/tokill.jpeg",
+      "price": "199",
+      "category": "Fiction"
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "The Great Gatsby is a novel by American author F. Scott Fitzgerald. The story takes place in 1922, during the Roaring Twenties, a time of prosperity in the United States after World War I. The book primarily concerns the young and mysterious millionaire Jay Gatsby and his quixotic passion and obsession for the beautiful former debutante Daisy Buchanan.",
+      "cover_image": "/images/the freat.jpeg",
+      "price": "547",
+      "category": "Fiction"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "The Catcher in the Rye is a novel by J.D. Salinger, first published in 1951. It is known for its portrayal of teenage angst and alienation. The story is narrated by Holden Caulfield, a disaffected teenager who has been expelled from prep school and wanders through New York City.",
+      "cover_image": "/images/catcher_in_the_rye.jpeg",
+      "price": "984",
+      "category": "Fiction"
+    },
+    
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "Pride and Prejudice is a romantic novel set in early 19th-century England. It follows the story of Elizabeth Bennet, the second of five daughters of a country gentleman. The novel explores themes of love, marriage, and social class as Elizabeth navigates her relationships with the wealthy and aloof Mr. Darcy and other eligible suitors.",
+      "cover_image": "/images/prideandprejudice.jpeg",
+      "price": "270",
+      "category": "Fiction"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "The Catcher in the Rye follows the story of Holden Caulfield, a disillusioned teenager who has been expelled from prep school. As he wanders the streets of New York City, Holden grapples with his feelings of alienation and disillusionment with the adult world. The novel explores themes of innocence, identity, and the search for authenticity.",
+      "cover_image": "/images/thecatcherintherye.jpeg",
+      "price": "260",
+      "category": "Fiction"
+    },
+    {
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "description": "The Girl with the Dragon Tattoo is the first novel in the Millennium series by Swedish author Stieg Larsson. It introduces the character Lisbeth Salander, a young hacker with a troubled past, and Mikael Blomkvist, an investigative journalist. The story revolves around their collaboration to solve a decades-old disappearance case.",
+      "cover_image": "/images/thegirl.jpeg",
+      "price": "524",
+      "category": "Mystery"
+    },
+    {
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "description": "Gone Girl is a psychological thriller novel by Gillian Flynn. It tells the story of Nick and Amy Dunne, a married couple whose relationship takes a dark turn when Amy mysteriously disappears on their fifth wedding anniversary. As the investigation unfolds, secrets and lies are revealed, leaving the reader guessing until the very end.",
+      "cover_image": "/images/gonegirl.jpeg",
+      "price": "588",
+      "category": "Mystery"
+    },
+    {
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "description": "The Da Vinci Code is a mystery thriller novel by Dan Brown. It follows Harvard symbologist Robert Langdon and French cryptologist Sophie Neveu as they unravel a series of clues hidden in works of art, religious symbols, and historical documents. Their quest leads them on a thrilling journey to uncover a secret that has been protected for centuries.",
+      "cover_image": "/images/davinci.jpg",
+      "price": "245",
+      "category": "Mystery"
+    },
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "description": "Harry Potter and the Sorcerer's Stone is the first book in the Harry Potter series by J.K. Rowling. It follows the journey of Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday and begins his education at Hogwarts School of Witchcraft and Wizardry. As Harry learns about his past and his destiny, he encounters friends, foes, and adventures beyond his wildest imagination.",
+      "cover_image": "/images/horry.jpeg",
+      "price": "487",
+      "category": "Fantasy"
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "description": "The Hobbit, or There and Back Again, is a fantasy novel by J.R.R. Tolkien. It follows the journey of Bilbo Baggins, a hobbit who is reluctantly swept into an epic quest by the wizard Gandalf and a group of dwarves. Together, they set out to reclaim the Lonely Mountain and its treasure from the dragon Smaug. Along the way, Bilbo encounters elves, trolls, and other fantastical creatures.",
+      "cover_image": "/images/thehobit.jpeg",
+      "price": "265",
+      "category": "Fantasy"
+    },
+    {
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "description": "The Name of the Wind is the first book in The Kingkiller Chronicle series. It tells the story of Kvothe, a gifted young man with a talent for magic and music, as he recounts his life story to a chronicler. From his childhood in a traveling troupe of performers to his time at the University, where he learns the art of magic, Kvothe's journey is filled with adventure, love, and tragedy.",
+      "cover_image": "/images/thenameofwind.jpeg",
+      "price": "280",
+      "category": "Fantasy"
+    },
+    {
+      "title": "A Game of Thrones",
+      "author": "George R.R. Martin",
+      "description": "A Game of Thrones is the first book in the A Song of Ice and Fire series by George R.R. Martin. Set in the fictional continents of Westeros and Essos, the story follows the power struggles among noble families vying for control of the Iron Throne. With themes of political intrigue, warfare, and the supernatural, the series is known for its complex characters and intricate plot twists.",
+      "cover_image": "/images/thegame.jpeg",
+      "price": "358",
+      "category": "Fantasy"
+    },
+    {
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "description": "The Silent Patient is a psychological thriller novel by Alex Michaelides. It tells the story of Alicia Berenson, a famous painter who becomes mute after being accused of murdering her husband. Theo Faber, a psychotherapist, becomes obsessed with her case and is determined to unravel the truth behind her silence.",
+      "cover_image": "/images/silent.jpeg",
+      "price": "458",
+      "category": "Mystery"
+    },
+    {
+      "title": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "description": "The Girl on the Train is a psychological thriller novel by Paula Hawkins. It follows the story of Rachel Watson, an alcoholic divorcee who becomes involved in the investigation of a missing woman. As Rachel tries to piece together her own memories and uncover the truth, she becomes entangled in a web of deception and danger.",
+      "cover_image": "/images/thegirlon.jpeg",
+      "price": "365",
+      "category": "Thriller"
+    },
+    {
+      "title": "The Woman in the Window",
+      "author": "A.J. Finn",
+      "description": "The Woman in the Window is a psychological thriller novel by A.J. Finn. It follows the story of Anna Fox, a former child psychologist who suffers from agoraphobia and spends her days spying on her neighbors. When she witnesses a crime in the house across the street, Anna becomes entangled in a web of secrets and deception, questioning her own sanity.",
+      "cover_image": "/images/women.jpeg",
+      "price": "596",
+      "category": "Thriller"
+    }
+  ]
+}

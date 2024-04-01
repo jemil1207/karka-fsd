@@ -20,7 +20,8 @@ const Chat = () => {
     let currenTime = today.toLocaleTimeString();
 
     setTime(currenTime)
-  }, [])
+    console.log(currenTime)
+  }, [] )
 
 
   useEffect(() => {
