@@ -1,0 +1,34 @@
+.firsttitle {
+  /* background-color: blue; */
+  height: 60px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+  
+.firstimage {
+  height: 350px;
+  /* width: 220px; */
+  margin: auto;
+}
+
+
+.firstall {
+ 
+  height: 650px;
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 300px;
+  padding: 20px;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+}
+.firstprice {
+  font-size: 30px;
+}
+.firstadd {
+  margin-top: 30px;
+}
+.firstadd {
+  height: 50px;
+  width: 250px;
+}
