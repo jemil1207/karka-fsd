@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "id": "cb0a",
+      "email": "jemils399@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "prefix": "86",
+      "phone": "06379986847",
+      "gender": "male",
+      "captcha": "hi1DF5",
+      "agreement": true
+    },
+    {
+      "id": "2b98",
+      "email": "alan@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "prefix": "86",
+      "phone": "12345678990",
+      "gender": "male",
+      "captcha": "jiFji1",
+      "agreement": true
+    }
+  ],
+  "users": [
+    {
+      "email": "jemils399@gmail.com",
+      "password": "12345",
+      "id": "055d"
+    }
+  ],
+  "projects": [
+    {
+      "id": "0b5f",
+      "user": "jemils399@gmail.com",
+      "projectname": "chat app",
+      "projectdescription": "create a chat app",
+      "projectrequirement": "use reactjs",
+      "projectdeadline": "2024-06-04"
+    },
+    {
+      "id": "b101",
+      "user": "alan@gmail.com",
+      "projectname": "insta",
+      "projectdescription": "create insta clone",
+      "projectrequirement": "use reactjs",
+      "projectdeadline": "2024-06-18"
+    }
+  ]
+}
